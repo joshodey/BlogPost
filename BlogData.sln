@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogData", "BlogData\BlogData.csproj", "{89254BC3-02F6-49EB-9185-7C6428B6140D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogBlazor", "BlogBlazor\BlogBlazor.csproj", "{5D4A17DA-0239-4EC3-962F-876FDB19D332}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89254BC3-02F6-49EB-9185-7C6428B6140D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89254BC3-02F6-49EB-9185-7C6428B6140D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89254BC3-02F6-49EB-9185-7C6428B6140D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89254BC3-02F6-49EB-9185-7C6428B6140D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D4A17DA-0239-4EC3-962F-876FDB19D332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D4A17DA-0239-4EC3-962F-876FDB19D332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D4A17DA-0239-4EC3-962F-876FDB19D332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D4A17DA-0239-4EC3-962F-876FDB19D332}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D85321E6-1279-4D0E-B517-A5EC1C780420}
+	EndGlobalSection
+EndGlobal

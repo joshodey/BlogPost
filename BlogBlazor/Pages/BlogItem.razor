@@ -1,0 +1,19 @@
+﻿
+<div class="blog-post">
+    <h1 class="blog-title">@Title</h1>
+    <p class="publication-date">@PublicationDate.DayOfWeek, @PublicationDate.Month @PublicationDate.Day, @PublicationDate.Year</p>
+    <div class="blog-content">
+        <p>
+            @Description
+        </p>
+    </div>
+</div>
+
+@code {
+    [Parameter] 
+    public string Title { get; set; }
+    [Parameter] 
+    public string Description { get; set; }
+    [Parameter] 
+    public DateTime PublicationDate { get; set; }
+}
